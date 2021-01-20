@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E2A4CF12538D7DC004E901C /* Mana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2A4CF02538D7DC004E901C /* Mana.swift */; };
+		3E2A4CF62538D83B004E901C /* Spell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2A4CF52538D83B004E901C /* Spell.swift */; };
+		3E2A4CFB2538D8C5004E901C /* Spellspecies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2A4CFA2538D8C5004E901C /* Spellspecies.swift */; };
+		3E2A4D002538D91B004E901C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2A4CFF2538D91B004E901C /* Card.swift */; };
+		3E2A4D052538D970004E901C /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2A4D042538D970004E901C /* Monster.swift */; };
+		3E2A4D0A2538DB51004E901C /* Magic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2A4D092538DB51004E901C /* Magic.swift */; };
+		3E2A4D0F2538DC77004E901C /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2A4D0E2538DC77004E901C /* Source.swift */; };
+		3E3A2E8D2549D9C5008D8978 /* CardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3A2E8C2549D9C5008D8978 /* CardController.swift */; };
+		3E3D1E4D253B3CFC0097B699 /* MagicCreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3D1E4C253B3CFC0097B699 /* MagicCreatorViewController.swift */; };
+		3E3D1E52253B3D170097B699 /* SourceCreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3D1E51253B3D170097B699 /* SourceCreatorViewController.swift */; };
+		3E3D1E65253B458F0097B699 /* MonsterCreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3D1E64253B458F0097B699 /* MonsterCreatorViewController.swift */; };
+		3E4154232558167C004638B8 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4154222558167C004638B8 /* CardTableViewCell.swift */; };
 		3E41D8A52538D0D1004845E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E41D8A42538D0D1004845E4 /* AppDelegate.swift */; };
 		3E41D8A72538D0D1004845E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E41D8A62538D0D1004845E4 /* SceneDelegate.swift */; };
 		3E41D8A92538D0D1004845E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E41D8A82538D0D1004845E4 /* ViewController.swift */; };
@@ -15,6 +27,13 @@
 		3E41D8B12538D0D1004845E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E41D8AF2538D0D1004845E4 /* LaunchScreen.storyboard */; };
 		3E41D8BC2538D0D2004845E4 /* StarsignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E41D8BB2538D0D2004845E4 /* StarsignTests.swift */; };
 		3E41D8C72538D0D2004845E4 /* StarsignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E41D8C62538D0D2004845E4 /* StarsignUITests.swift */; };
+		3E456CBF254D88B800C1A035 /* Recard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E456CBE254D88B800C1A035 /* Recard.swift */; };
+		3E4BA2C6254EF6A5004B1AC2 /* Recards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BA2C5254EF6A5004B1AC2 /* Recards.swift */; };
+		3E4BCD89254DD52300333556 /* CardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BCD88254DD52300333556 /* CardTableViewController.swift */; };
+		3E4BCD8E254DD70000333556 /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BCD8D254DD70000333556 /* CardList.swift */; };
+		3E6C6388256587CD0057FDC2 /* MonsterSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6C6387256587CD0057FDC2 /* MonsterSelectionViewController.swift */; };
+		3E6C638D256587EA0057FDC2 /* MagicSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6C638C256587EA0057FDC2 /* MagicSelectionViewController.swift */; };
+		3E6C6392256587FB0057FDC2 /* SourceSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6C6391256587FB0057FDC2 /* SourceSelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E2A4CF02538D7DC004E901C /* Mana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mana.swift; sourceTree = "<group>"; };
+		3E2A4CF52538D83B004E901C /* Spell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spell.swift; sourceTree = "<group>"; };
+		3E2A4CFA2538D8C5004E901C /* Spellspecies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spellspecies.swift; sourceTree = "<group>"; };
+		3E2A4CFF2538D91B004E901C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		3E2A4D042538D970004E901C /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		3E2A4D092538DB51004E901C /* Magic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic.swift; sourceTree = "<group>"; };
+		3E2A4D0E2538DC77004E901C /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		3E3A2E8C2549D9C5008D8978 /* CardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardController.swift; sourceTree = "<group>"; };
+		3E3D1E4C253B3CFC0097B699 /* MagicCreatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCreatorViewController.swift; sourceTree = "<group>"; };
+		3E3D1E51253B3D170097B699 /* SourceCreatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceCreatorViewController.swift; sourceTree = "<group>"; };
+		3E3D1E64253B458F0097B699 /* MonsterCreatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCreatorViewController.swift; sourceTree = "<group>"; };
+		3E4154222558167C004638B8 /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
 		3E41D8A12538D0D1004845E4 /* Starsign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starsign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E41D8A42538D0D1004845E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E41D8A62538D0D1004845E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +80,13 @@
 		3E41D8C22538D0D2004845E4 /* StarsignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarsignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E41D8C62538D0D2004845E4 /* StarsignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsignUITests.swift; sourceTree = "<group>"; };
 		3E41D8C82538D0D2004845E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E456CBE254D88B800C1A035 /* Recard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recard.swift; sourceTree = "<group>"; };
+		3E4BA2C5254EF6A5004B1AC2 /* Recards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recards.swift; sourceTree = "<group>"; };
+		3E4BCD88254DD52300333556 /* CardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewController.swift; sourceTree = "<group>"; };
+		3E4BCD8D254DD70000333556 /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
+		3E6C6387256587CD0057FDC2 /* MonsterSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterSelectionViewController.swift; sourceTree = "<group>"; };
+		3E6C638C256587EA0057FDC2 /* MagicSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicSelectionViewController.swift; sourceTree = "<group>"; };
+		3E6C6391256587FB0057FDC2 /* SourceSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceSelectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +114,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E2A4CEC2538D7C4004E901C /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				3E2A4CF02538D7DC004E901C /* Mana.swift */,
+				3E2A4CF52538D83B004E901C /* Spell.swift */,
+				3E2A4CFA2538D8C5004E901C /* Spellspecies.swift */,
+				3E2A4CFF2538D91B004E901C /* Card.swift */,
+				3E2A4D042538D970004E901C /* Monster.swift */,
+				3E2A4D092538DB51004E901C /* Magic.swift */,
+				3E2A4D0E2538DC77004E901C /* Source.swift */,
+				3E456CBE254D88B800C1A035 /* Recard.swift */,
+				3E4BCD8D254DD70000333556 /* CardList.swift */,
+				3E4BA2C5254EF6A5004B1AC2 /* Recards.swift */,
+			);
+			path = objects;
+			sourceTree = "<group>";
+		};
+		3E3970812539F23500175668 /* lists */ = {
+			isa = PBXGroup;
+			children = (
+				3E3D1E4C253B3CFC0097B699 /* MagicCreatorViewController.swift */,
+				3E3D1E51253B3D170097B699 /* SourceCreatorViewController.swift */,
+				3E3D1E64253B458F0097B699 /* MonsterCreatorViewController.swift */,
+				3E4BCD88254DD52300333556 /* CardTableViewController.swift */,
+				3E6C6387256587CD0057FDC2 /* MonsterSelectionViewController.swift */,
+				3E6C638C256587EA0057FDC2 /* MagicSelectionViewController.swift */,
+				3E6C6391256587FB0057FDC2 /* SourceSelectionViewController.swift */,
+			);
+			path = lists;
+			sourceTree = "<group>";
+		};
 		3E41D8982538D0D1004845E4 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +168,8 @@
 		3E41D8A32538D0D1004845E4 /* Starsign */ = {
 			isa = PBXGroup;
 			children = (
+				3E3970812539F23500175668 /* lists */,
+				3E2A4CEC2538D7C4004E901C /* objects */,
 				3E41D8A42538D0D1004845E4 /* AppDelegate.swift */,
 				3E41D8A62538D0D1004845E4 /* SceneDelegate.swift */,
 				3E41D8A82538D0D1004845E4 /* ViewController.swift */,
@@ -106,6 +177,8 @@
 				3E41D8AD2538D0D1004845E4 /* Assets.xcassets */,
 				3E41D8AF2538D0D1004845E4 /* LaunchScreen.storyboard */,
 				3E41D8B22538D0D1004845E4 /* Info.plist */,
+				3E3A2E8C2549D9C5008D8978 /* CardController.swift */,
+				3E4154222558167C004638B8 /* CardTableViewCell.swift */,
 			);
 			path = Starsign;
 			sourceTree = "<group>";
@@ -258,9 +331,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3D1E52253B3D170097B699 /* SourceCreatorViewController.swift in Sources */,
+				3E456CBF254D88B800C1A035 /* Recard.swift in Sources */,
+				3E2A4D052538D970004E901C /* Monster.swift in Sources */,
+				3E6C638D256587EA0057FDC2 /* MagicSelectionViewController.swift in Sources */,
+				3E6C6392256587FB0057FDC2 /* SourceSelectionViewController.swift in Sources */,
+				3E4BCD8E254DD70000333556 /* CardList.swift in Sources */,
+				3E2A4CF62538D83B004E901C /* Spell.swift in Sources */,
+				3E4154232558167C004638B8 /* CardTableViewCell.swift in Sources */,
 				3E41D8A92538D0D1004845E4 /* ViewController.swift in Sources */,
+				3E2A4D002538D91B004E901C /* Card.swift in Sources */,
+				3E2A4D0A2538DB51004E901C /* Magic.swift in Sources */,
 				3E41D8A52538D0D1004845E4 /* AppDelegate.swift in Sources */,
+				3E3D1E4D253B3CFC0097B699 /* MagicCreatorViewController.swift in Sources */,
+				3E4BA2C6254EF6A5004B1AC2 /* Recards.swift in Sources */,
+				3E6C6388256587CD0057FDC2 /* MonsterSelectionViewController.swift in Sources */,
+				3E4BCD89254DD52300333556 /* CardTableViewController.swift in Sources */,
+				3E2A4CF12538D7DC004E901C /* Mana.swift in Sources */,
 				3E41D8A72538D0D1004845E4 /* SceneDelegate.swift in Sources */,
+				3E2A4D0F2538DC77004E901C /* Source.swift in Sources */,
+				3E3A2E8D2549D9C5008D8978 /* CardController.swift in Sources */,
+				3E3D1E65253B458F0097B699 /* MonsterCreatorViewController.swift in Sources */,
+				3E2A4CFB2538D8C5004E901C /* Spellspecies.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
